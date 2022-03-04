@@ -1,0 +1,11 @@
+.card {
+    width: 50vw;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#featured {
+    display: flex;
+    flex: 1 1;
+    flex-wrap: wrap;
+}
