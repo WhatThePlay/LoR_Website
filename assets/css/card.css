@@ -1,0 +1,21 @@
+#details img {
+    padding: 0 2rem 0 2rem
+}
+
+#details table {
+    font-size: 1.5rem;
+    text-align: left;
+    padding-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#details table tr th{
+    text-align: left;
+    padding-right: 2rem;
+}
+
+#details table tr td{
+    text-align: right;
+    padding-left: 2rem;
+}
