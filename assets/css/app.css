@@ -20,6 +20,13 @@ header {
     height: 3rem;
 }
 
+.line {
+    height: 0;
+    width: 90vw;
+    border-bottom: #777283 solid 0.1rem;
+    margin: 2rem auto 2rem auto;
+}
+
 h1, h2, h3, h4, h5, h6{
     color: var(--gray1);
     text-align: center;

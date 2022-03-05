@@ -1,0 +1,14 @@
+.region {
+    width: 100vw;
+    padding: 0 3rem 0 3rem;
+}
+
+.card h3, .card p {
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+#regions {
+    display: flex;
+    flex-direction: column;
+}
