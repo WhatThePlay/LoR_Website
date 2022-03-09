@@ -4,7 +4,7 @@
     grid-template-areas: "image content";
 }
 
-.keyword a {
+.keyword img {
     grid-area: image;
     padding-left: 1em;
 }

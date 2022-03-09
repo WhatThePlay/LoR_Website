@@ -8,3 +8,11 @@ Farbschema:     #2AA3CC for navbar and main headers (background)
                 #2388A9 for sub elements like buttons and footer
                 #4F4C57 for sub headers and some elements(e.g. hamburger menu)
                 #777283 for text areas
+
+
+Breakpoints:    xs: 0
+                sm: 576px
+                md: 768px
+                lg: 992px
+                xl: 1200px
+                xxl: 1400px
