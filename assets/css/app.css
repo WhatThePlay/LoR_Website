@@ -47,6 +47,7 @@ header a, span {
 
 main {
     margin-bottom: 1.5rem;
+    padding: 0 1em 0 1em;
 }
 
 /* Nav Stuff */
@@ -97,6 +98,7 @@ body {
 }
 
 footer {
+    margin-top: 1rem;
     padding: 0.5rem 0.5rem 0 0.5rem;
     background: lightgray;
     height: 100px;
