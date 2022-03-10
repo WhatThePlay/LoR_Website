@@ -16,3 +16,16 @@ Breakpoints:    xs: 0
                 lg: 992px
                 xl: 1200px
                 xxl: 1400px
+
+Quellen:        Links for Regions and icons/description thereof
+                https://leagueoflegends.fandom.com/wiki/Region_(Legends_of_Runeterra)
+
+                Links for Keywords and icons/description thereof
+                https://leagueoflegends.fandom.com/wiki/Keywords_(Legends_of_Runeterra)
+
+                LoR Documentation including link to Json (Game Data and Images)
+                https://developer.riotgames.com/docs/lor
+
+                PokeAPI
+                https://pokeapi.co/
+

@@ -116,11 +116,6 @@ footer p {
         max-width: 75vw;
     }
 
-    #bannerSection {
-        background-image: url("../ressources/Runeterra.jpg");
-        text-align: center;
-    }
-
     header a, span {
         font-size: 2em;
     }
@@ -130,11 +125,15 @@ footer p {
         margin: 0 auto 0 auto;
     }
 
-    main h1 {
+    h1 {
         font-size: 3em;
     }
 
     main p {
+        font-size: 2em;
+    }
+
+    h3 {
         font-size: 2em;
     }
 }

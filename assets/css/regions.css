@@ -31,10 +31,6 @@
         grid-area: content;
     }
 
-    .region div h3 {
-        font-size: 2em;
-    }
-
     .region div p {
         font-size: 1.5em;
     }

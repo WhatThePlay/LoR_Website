@@ -24,7 +24,7 @@ async function fetchPokemon (url) {
     let response = await fetch(url + id);
     let data = await response.json();
     const pokemon = document.createElement("p")
-    pokemon.innerText = data.name + " is a cool Pokemon btw."
+    pokemon.innerText = data.name[0].toUpperCase() + data.name.slice(1) + " is a cool Pokemon btw."
     document.getElementsByTagName("footer")[0].appendChild(pokemon)
 }
 
