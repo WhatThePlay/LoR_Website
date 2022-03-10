@@ -1,5 +1,5 @@
 .card {
-    width: calc(100vw/3);
+    width: calc(100vw / 3);
     padding: 0.1rem;
     margin-bottom: 1rem;
 }
@@ -15,25 +15,27 @@
     flex-wrap: wrap;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     #cards {
         width: 90vw;
         margin: 0 auto 0 auto;
     }
+
     .card {
-        width: calc(90vw/4);
+        width: calc(90vw / 4);
         padding: 0 0.5em 0 0.5em;
     }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     .card {
-        width: calc(90vw/5);
+        width: calc(90vw / 5);
     }
 
     .card h3 {
         font-size: 2em;
     }
+
     .card p {
         font-size: 1.5em;
     }

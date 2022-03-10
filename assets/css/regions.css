@@ -1,6 +1,6 @@
 .region {
-    width: 100vw;
-    padding: 0 3rem 0 3rem;
+    width: 90vw;
+    margin: 0 auto 0 auto;
 }
 
 .card h3, .card p {
@@ -11,4 +11,31 @@
 #regions {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .region {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas: "image content";
+    }
+
+    .region img {
+        grid-area: image;
+        width: calc(90vw / 4);
+        height: auto;
+    }
+
+    .region div {
+        width: calc((90vw / 4) * 3);
+        grid-area: content;
+    }
+
+    .region div h3 {
+        font-size: 2em;
+    }
+
+    .region div p {
+        font-size: 1.5em;
+    }
 }

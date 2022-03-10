@@ -9,7 +9,8 @@
 }
 
 header {
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
     display: flex;
@@ -26,7 +27,7 @@ header {
     margin: 2rem auto 2rem auto;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     color: var(--gray1);
     text-align: center;
 }
@@ -102,20 +103,24 @@ footer {
     padding: 0.5rem 0.5rem 0 0.5rem;
     background: lightgray;
     height: 100px;
+    display: flex;
+    flex-direction: row;
 }
 
 footer p {
     color: var(--gray2);
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     #banner {
         max-width: 75vw;
     }
+
     #bannerSection {
         background-image: url("../ressources/Runeterra.jpg");
         text-align: center;
     }
+
     header a, span {
         font-size: 2em;
     }
@@ -134,12 +139,35 @@ footer p {
     }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     #banner {
         max-width: 50vw;
     }
 
     main h1, p {
         width: 50vw;
+    }
+
+    nav {
+        display: flex;
+        position: fixed;
+        top: 0;
+        background-color: transparent;
+        width: 50vw;
+        justify-content: space-evenly;
+        margin: 0 25vw 0 25vw;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        font-size: 2em;
+        padding: 0 1em 0 1em;
+    }
+
+    header span {
+        display: none;
     }
 }

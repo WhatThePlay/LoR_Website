@@ -1,15 +1,54 @@
+/*#keywords {*/
+/*    width: 90vw;*/
+/*    margin: 0 auto 0 auto;*/
+/*}*/
+
 .keyword {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-areas: "image content";
+    width: 90vw;
 }
 
 .keyword img {
     grid-area: image;
     padding-left: 1em;
+    margin: 0 auto 0 auto;
 }
 
 .keyword div {
     grid-area: content;
-    padding: 0 1em 0 1em;
+    width: calc((90vw / 4) * 3);
+}
+
+.keyword div p {
+    font-size: 1.5em;
+    width: calc((90vw / 4) * 3);
+}
+
+@media screen and (min-width: 768px) {
+    .keyword {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas: "image content";
+    }
+
+    .keyword img {
+        grid-area: image;
+        width: calc(90vw / 8);
+        height: auto;
+    }
+
+    .keyword div {
+        width: calc((90vw / 4) * 3);
+        grid-area: content;
+    }
+
+    .keyword div h3 {
+        font-size: 2em;
+    }
+
+    .keyword div p {
+        font-size: 1.5em;
+    }
 }
