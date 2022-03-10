@@ -113,8 +113,8 @@ footer p {
 
 #bannerContainer{
     width: 100vw;
-    background-color: gray;
-    background-image: url("../ressources/Draven-Splashart.png"); /*There should be a blurred version of the image to serve as background but I can't use local files for some reason*/
+    background-color: lightgray;
+    /*background-image: url("../ressources/Draven-Splashart.png"); !*There should be a blurred version of the image to serve as background but I can't use local files for some reason*!*/
     padding: 0;
     /*height: 395px;*/
     height: border-box;
