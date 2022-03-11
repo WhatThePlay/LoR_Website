@@ -20,6 +20,10 @@ main table tr td {
     padding-left: 2rem;
 }
 
+#bannerContainer {
+    background-image: url("../ressources/DravenBlurred.png");
+}
+
 @media screen and (min-width: 768px){
     main div {
         display: grid;

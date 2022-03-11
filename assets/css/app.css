@@ -23,7 +23,7 @@ header {
 .line {
     height: 0;
     width: 90vw;
-    border-bottom: #777283 solid 0.1rem;
+    border-bottom: var(--gray2) solid 0.1rem;
     margin: 2rem auto 2rem auto;
 }
 
@@ -81,7 +81,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: lightgray;
+    color: var(--gray2);
 }
 
 img {
@@ -118,6 +118,7 @@ footer p {
     padding: 0;
     /*height: 395px;*/
     height: border-box;
+    line-height: 0px;
 }
 
 @media screen and (min-width: 768px) {

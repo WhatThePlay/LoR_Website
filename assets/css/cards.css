@@ -15,6 +15,10 @@
     flex-wrap: wrap;
 }
 
+#bannerContainer {
+    background-image: url("../ressources/LoR1Blurred.png");
+}
+
 @media screen and (min-width: 768px) {
     #cards {
         width: 90vw;

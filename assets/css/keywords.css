@@ -26,6 +26,10 @@
     width: calc((90vw / 4) * 3);
 }
 
+#bannerContainer {
+    background-image: url("../ressources/LoR1Blurred.png");
+}
+
 @media screen and (min-width: 768px) {
     .keyword {
         display: grid;
