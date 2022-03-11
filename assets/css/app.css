@@ -117,6 +117,8 @@ footer p {
     padding: 0;
     height: border-box;
     line-height: 0;
+    background-position: center;
+    background-size: cover;
 }
 
 /*#nav {*/

@@ -16,7 +16,7 @@
 }
 
 #bannerContainer {
-    background-image: url("../ressources/LoR1Blurred.png");
+    background-image: url("../ressources/banners/RadiantBlur.png");
 }
 
 @media screen and (min-width: 768px) {

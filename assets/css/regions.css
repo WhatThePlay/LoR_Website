@@ -14,7 +14,7 @@
 }
 
 #bannerContainer {
-    background-image: url("../ressources/RuneterraBlurred.png");
+    background-image: url("../ressources/banners/RegionBlur.png");
 }
 
 @media screen and (min-width: 768px) {

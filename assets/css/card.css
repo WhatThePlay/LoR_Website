@@ -21,7 +21,7 @@ main table tr td {
 }
 
 #bannerContainer {
-    background-image: url("../ressources/DravenBlurred.png");
+    background-image: url("../ressources/banners/DravenBlur.png");
 }
 
 @media screen and (min-width: 768px){
