@@ -114,12 +114,20 @@ footer p {
 #bannerContainer{
     width: 100vw;
     background-color: lightgray;
-    /*background-image: url("../ressources/Draven-Splashart.png"); !*There should be a blurred version of the image to serve as background but I can't use local files for some reason*!*/
     padding: 0;
-    /*height: 395px;*/
     height: border-box;
-    line-height: 0px;
+    line-height: 0;
 }
+
+/*#nav {*/
+/*    transition-property: transform;*/
+/*    transition-duration: 2s;*/
+/*    transform: translateY(-20vh);*/
+/*}*/
+
+/*#nav.visible {*/
+/*    transform: translateY(0);*/
+/*}*/
 
 @media screen and (min-width: 768px) {
     #banner {
@@ -163,12 +171,13 @@ footer p {
         top: 0;
         background-color: transparent;
         width: 50vw;
-        justify-content: space-evenly;
+        justify-content: space-around;
         margin: 0 25vw 0 25vw;
     }
 
     nav ul li {
         float: left;
+        width: calc(50vw/4)
     }
 
     nav ul li a {
